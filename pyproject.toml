@@ -1,0 +1,22 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel", "versioneer"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "JacksAdapter"
+version = "1.0.0"
+description = "ODIN adapter"
+readme = "README.md"
+authors = [{ name = "Jack Santiago", email = "jack.santiago@stfc.ac.uk" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "odin-control @ git+https://git@github.com/odin-detector/odin-control.git@1.5.0"
+]
+requires-python = ">=3.9"
+
+

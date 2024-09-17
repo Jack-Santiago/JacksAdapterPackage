@@ -1,0 +1,15 @@
+# MANIFEST.in
+
+include src/jacksAdapter/*
+include src/test
+include src/test/config
+include src/test/config/jacksAdapter.cfg
+include src/test/config/static
+include src/test/static/index.html
+include src/test/static/js/jquery-2.2.3.min.js
+include src/test/static/js/odin_server.js
+include src/test/static/js/bootstrap-3.3.6-dist/css/*
+include src/test/static/js/bootstrap-3.3.6-dist/fonts/*
+include src/test/static/js/bootstrap-3.3.6-dist/js/*
+include src/test/static/css/odin-server.css
+include requirements.txt

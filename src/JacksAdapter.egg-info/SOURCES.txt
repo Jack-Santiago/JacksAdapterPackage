@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/JacksAdapter.egg-info/PKG-INFO
+src/JacksAdapter.egg-info/SOURCES.txt
+src/JacksAdapter.egg-info/dependency_links.txt
+src/JacksAdapter.egg-info/requires.txt
+src/JacksAdapter.egg-info/top_level.txt
+src/jacksAdapter/__init__.py
+src/jacksAdapter/_version.py
+src/jacksAdapter/adapter.py
+src/jacksAdapter/versioneer.py
